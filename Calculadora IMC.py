@@ -1,0 +1,7 @@
+print("Bienvenido a la calculadora de indice de masa corporal (IMC)\nPor favor, siga las instrucciones")
+NOMBRE = input("Introduzca su nombre por favor ")
+APELLIDO = input("Introduzca su apellido por favor ")
+ALTURA = float (input("Introduza su altura en metros (Ejemplo: 1.75) "))
+PESO = float (input("Introduza su peso en kilogramos "))
+IMC = PESO/(ALTURA**2)
+print(f'IMC = {IMC: .2f}')
